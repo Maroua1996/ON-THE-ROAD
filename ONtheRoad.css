@@ -1,0 +1,463 @@
+/*Global CSS */
+
+*{margin:0 ;
+ padding :0;
+ box-sizing: border-box;
+
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Itim', cursive;
+    
+}
+
+
+h3 {
+    font-size: 3rem;
+}
+
+
+h4,h5{
+    font-size: 2.8rem;
+}
+
+li{
+    font-size:2rem;
+}
+
+
+a{ color:#115e57;
+text-decoration: none;}
+
+
+
+
+/* HEADER */
+
+.main-head{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.45);
+    position: fixed;
+    background-color: hsla(0, 3%, 56%, 0.6);
+     
+}
+
+
+
+.header-fantome{
+    width: 100%;
+   height:1vh;
+}
+
+label.logo{
+    color : white;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 80px;
+    
+  
+}
+
+
+label span{
+    color: #76bfab;
+}
+
+
+nav ul{
+   float: right; 
+  margin-right: 20px; 
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    opacity: 1;
+
+}
+
+nav ul li a{
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 13px;
+    border-radius: 3px;
+    color: white;}
+
+
+  a:hover{
+      background:#76bfab;
+      transition: .5s;  
+  }
+
+  .checkbtn{
+      font-size:30px;
+      color:white ;
+      float: right;
+      line-height: 80px;
+      margin-right: 40px;
+      cursor: pointer;
+      display:none;
+  }
+
+  #check{
+      display:none;}
+
+
+
+
+
+
+/* HERO*/
+
+ .hero{
+  height: 100%;
+  width: 100%;
+ }
+
+
+/*PARCOURS*/
+
+ .Parcours{
+   min-height:70vh;
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   display: flex;
+   background-size: cover; 
+   background-image: url("icons/14334.jpg");
+ }
+
+
+ .titre{
+    display: flex;
+    margin-bottom: 3em;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+ }
+
+ .titre span{
+    color: #76bfab ;
+ }
+
+
+ .titre p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: grey;
+    font-weight: bolder;
+ }
+
+
+
+
+
+ .image{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 30vh;
+    justify-content: space-evenly;}
+  
+
+
+
+ img{
+    
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+
+  
+ .top img{
+    border-radius: 15px;
+    }
+
+ .top:first-child:hover{
+   content:url("image/geran-de-klerk-WJkc3xZjSXw-unsplash.jpg");
+   border-radius: 3px;}
+
+    
+ .top:nth-child(2):hover{
+    content:url("image/victor-he-ZtbH_tzKdWc-unsplash.jpg");
+    border-radius: 3px;}
+
+
+ .top:nth-child(3):hover{
+    content:url("image/jackman-chiu-36Vbwo1OiZU-unsplash.jpg");
+    border-radius: 3px;}
+        
+
+ 
+
+ .top{
+  
+    background-size: cover;
+    width: 310px;
+    height: 210px;
+    display: flex;
+    margin-left: 12px;
+    flex-direction:row;
+    align-items: center;
+ }
+
+
+
+
+    
+    
+    
+
+
+
+
+
+ /*Temoignage*/
+
+
+ .Temoignage{
+    min-height:70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(207, 209, 211);
+    background-position: center;
+    
+  }
+
+ .contener{
+    min-height:30vh;
+    display: flex;
+    float: right;
+    width: 80%;
+    margin: 3rem;
+    border-radius: 15px;
+    
+ }
+
+
+
+ .alignLeft{
+    float: right;
+    display: flex;
+    margin-top: 2em;
+    margin-left: 2em ;
+    height: 100px;
+   
+    }
+
+
+
+ .alignright{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 4em;
+    padding: 2em;
+    font-size: 18px;   
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#76bfab;
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.45);
+    border-radius: 3px;
+    background: whitesmoke;
+
+    
+
+
+ }
+
+.alignright p{
+position: center;
+}
+
+.alignright h2{
+    align-items: flex-end;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.contener img{
+     width: 310px;
+     height: 265px;
+     box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.45);
+
+}
+
+/* FOOTER */
+
+footer{
+    display:flex;
+    justify-content:center;
+    height: 10vh;
+    background-color: hsla(0, 3%, 56%, 0.6);
+    font-family: 'Ubuntu', sans-serif; 
+    align-items: center;
+    font-weight: bold;
+  
+}
+
+.a-footer{
+     
+    color: white;
+    margin:20px;
+    font-size: 20px;
+}
+
+
+
+
+/*MEDIA QUERIES */
+
+@media screen and (max-width:952px){
+
+.body{
+    display: block;
+    width: 100%;
+}
+
+
+.hero{
+    width: 100%;
+}
+
+.image{
+    flex-direction: column;
+    align-items: center;
+}
+
+.Parcours{
+    width:100%;
+   
+    
+}
+.Temoignage{
+    width: 100%;
+}
+
+
+}
+
+
+
+
+
+
+@media(max-width:952px){
+
+label.logo{
+   font-size: 30px; 
+   padding: left 40px;
+}
+
+nav ul li{
+font-weight: bold;
+
+}
+
+nav ul li a{
+    font-size: 16px ;
+}
+.tiptop{
+    width: 100%;
+}
+.contener{
+    min-height: 50vh;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.alignright{
+    
+    width: 70%;
+   
+    margin: 2rem;
+
+}
+
+h1{
+    font-size: 34px;
+}
+
+}
+
+
+
+
+
+@media(max-width:858px){
+
+.checkbtn{
+  display: block;
+}
+ul{
+  position:fixed;
+  width: 100%;
+  height: 100vh;
+  background-color:hsla(160, 63%, 74%, 0.6);
+  top: 80px;
+  left:-100%;
+  text-align: center;
+  transition: all .5s;
+}
+
+nav ul li{
+  display: block;
+  margin: 50px 0;
+  line-height: 30px;
+  font-weight: bold;
+
+
+}
+nav ul li a{
+  font-size: 20px;
+}
+
+a:hover{
+background: none;  
+color: #70DBDB;
+}
+
+
+#check:checked~ul{
+  left:0;
+}
+
+img{ 
+ width: 100%;
+
+}
+
+
+
+ .tiptop{
+    width: 100%;
+}
+
+}
