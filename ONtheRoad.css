@@ -1,4 +1,4 @@
-/*Global CSS */
+/*---Global CSS--- */
 
 *{margin:0 ;
  padding :0;
@@ -7,13 +7,16 @@
 }
 
 
+
+
+/*---- Typo ----*/
 html{
     font-size: 62.5%;
 }
 
 h1{
     font-size: 50px;
-    font-family: 'Itim', cursive;
+    font-family: 'Ubuntu', sans-serif;
     
 }
 
@@ -38,7 +41,7 @@ text-decoration: none;}
 
 
 
-/* HEADER */
+/*--- HEADER--- */
 
 .main-head{
     padding: 0;
@@ -71,25 +74,25 @@ label.logo{
 }
 
 
-label span{
+ label span{
     color: #76bfab;
-}
+ }
 
 
-nav ul{
+  nav ul{
    float: right; 
   margin-right: 20px; 
-}
+ }
 
-nav ul li{
+ nav ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
     opacity: 1;
 
-}
+ }
 
-nav ul li a{
+ nav ul li a{
     font-size: 17px;
     font-weight: bolder;
     font-family: 'Ubuntu', sans-serif;
@@ -97,13 +100,14 @@ nav ul li a{
     text-decoration: none;
     padding: 7px 13px;
     border-radius: 3px;
-    color: white;}
+    color: white;
+   }
 
 
   a:hover{
       background:#76bfab;
       transition: .5s;  
-  }
+   }
 
   .checkbtn{
       font-size:30px;
@@ -116,14 +120,15 @@ nav ul li a{
   }
 
   #check{
-      display:none;}
+      display:none;
+   }
 
 
 
 
 
 
-/* HERO*/
+/*----HERO----*/
 
  .hero{
   height: 100%;
@@ -131,17 +136,17 @@ nav ul li a{
  }
 
 
-/*PARCOURS*/
+/*----PARCOURS----*/
 
  .Parcours{
    min-height:70vh;
-    align-items: center;
+   align-items: center;
    justify-content: center;
    flex-direction: column;
    display: flex;
    background-size: cover; 
-   background-image: url("icons/14334.jpg");
- }
+   background-image: url("icons/greyzz.png");
+  }
 
 
  .titre{
@@ -150,12 +155,13 @@ nav ul li a{
     flex-direction: column;
     align-items: center;
     font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Itim', cursive;
     color: grey;
  }
 
  .titre span{
     color: #76bfab ;
+    font-family: 'Itim', cursive;
  }
 
 
@@ -186,7 +192,7 @@ nav ul li a{
     width: 300px;
     height: 200px;
     display: flex;
-}
+  }
 
   
  .top img{
@@ -232,7 +238,7 @@ nav ul li a{
 
 
 
- /*Temoignage*/
+/*----Temoignage----*/
 
 
  .Temoignage{
@@ -250,8 +256,9 @@ nav ul li a{
     display: flex;
     float: right;
     width: 80%;
-    margin: 3rem;
+    margin: 2rem;
     border-radius: 15px;
+    justify-content: center;
     
  }
 
@@ -283,8 +290,7 @@ nav ul li a{
     border-radius: 3px;
     background: whitesmoke;
 
-    
- }
+    }
 
   
  .alignright p{
@@ -297,7 +303,7 @@ nav ul li a{
     text-transform: uppercase;
     font-weight: bolder;
     font-family: 'Roboto', sans-serif;
- }
+   }
 
 
  .contener img{
@@ -305,9 +311,9 @@ nav ul li a{
      height: 265px;
      box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.45);
 
- }
+   }
 
-/* FOOTER */
+/*---- FOOTER---- */
 
  footer{
     display:flex;
@@ -317,48 +323,45 @@ nav ul li a{
     font-family: 'Ubuntu', sans-serif; 
     align-items: center;
     font-weight: bold;
-  
- }
+   }
 
  .a-footer{
      
     color: white;
     margin:20px;
     font-size: 20px;
- }
+   }
 
 
 
 
-/*MEDIA QUERIES */
+/*----MEDIA QUERIES--- */
 
  @media screen and (max-width:952px){
 
- .body{
+  .body{
     display: block;
     width: 100%;
- }
+   }
 
 
- .hero{
+  .hero{
     width: 100%;
- }
+   }
 
- .image{
+  .image{
     flex-direction: column;
     align-items: center;
- }
+   }
 
- .Parcours{
+  .Parcours{
     width:100%;
    
-    }
+   }
 
- .Temoignage{
+  .Temoignage{
     width: 100%;
- }
-
-
+   }
  }
 
 
@@ -413,12 +416,12 @@ nav ul li a{
 
 
 
-@media(max-width:858px){
+ @media(max-width:858px){
 
-.checkbtn{
+ .checkbtn{
   display: block;
-}
-ul{
+ }
+ ul{
   position:fixed;
   width: 100%;
   height: 100vh;
@@ -427,39 +430,38 @@ ul{
   left:-100%;
   text-align: center;
   transition: all .5s;
-}
+ }
 
-nav ul li{
+ nav ul li{
   display: block;
   margin: 50px 0;
   line-height: 30px;
   font-weight: bold;
+ }
 
-
-}
-nav ul li a{
+ nav ul li a{
   font-size: 20px;
-}
+ }
 
-a:hover{
-background: none;  
-color: #70DBDB;
-}
+ a:hover{
+ background: none;  
+ color: #70DBDB;
+ }
 
 
-#check:checked~ul{
+ #check:checked~ul{
   left:0;
-}
+ }
 
-img{ 
+ img{ 
  width: 100%;
 
-}
+ }
 
 
 
  .tiptop{
     width: 100%;
-}
+ }
 
-}
+ }
