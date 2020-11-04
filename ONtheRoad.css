@@ -35,9 +35,6 @@ li{
 }
 
 
-a{ color:#115e57;
-text-decoration: none;}
-
 
 
 
@@ -105,7 +102,7 @@ label.logo{
 
 
   a:hover{
-      background:#76bfab;
+      background:yellow;
       transition: .5s;  
    }
 
